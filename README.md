@@ -8,8 +8,10 @@ To anyone with a very similar keyboard to mine, i hope this will help you if you
 <br>
 
 
-**Note:** This guide worked for my exact keyboard spec below and might work on yours too if its similar.
-
+**Notes:**   
+- This guide worked for my exact keyboard spec below and might work on yours too if its similar.
+- The keyboard will only work wired, bluetooth is not supported while using this firmware.
+    
 **BRICKING RISK IS LOW BUT NEVER ZERO! PROCEED AT YOUR OWN RISK**
 <br>
 <br>
