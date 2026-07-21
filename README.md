@@ -61,7 +61,7 @@ https://msys.qmk.fm/
 5. git submodule update --init --recursive
  
 6. At:
-keyboards/keychron/k8/rgb/ansi/  
+keyboards/keychron/k8/rgb/ansi/ (In SonixQMK Root) 
 Create a file called "rules.mk" with these inside:
 
 ```makefile
