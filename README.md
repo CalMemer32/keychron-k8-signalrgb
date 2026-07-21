@@ -1,6 +1,7 @@
 **Note: This guide worked for my exact keyboard spec below and might work on yours too if its similar.  
 Bricking risk is low but never zero, proceed at your own risk**
 <br>
+<br>
 
 **Model:** Keychron K8 Wireless Mechanical Keyboard (K8J3)   
 **Layout:** ANSI  
@@ -8,6 +9,18 @@ Gateron Hot-swappable
 RGB Backlight  
 No Knob  
 Sonix SN32F248B
+<br>
+<br>
+
+# Pre-Compiled Firmware and Modified SignalRGB Plugin In Releases Tab  
+
+Original "Keychron_K8_TKL_QMK_Keyboard.js" Plugin has an Incorrect Layout, Modified Version Fixes This for ANSI  
+
+**Source:**  
+https://gitlab.com/signalrgb/signal-plugins/-/blob/master/Plugins/QMK/Keychron/Keychron_K8_TKL_QMK_Keyboard.js
+
+<br>
+<br>
 
 # **Build on Windows:**
 
@@ -49,6 +62,7 @@ Save & Exit
 
 Firmware will be found at SonixQMK Root
 <br>
+<br>
 
 # **Flashing**
 
@@ -68,12 +82,14 @@ Select "Reboot to Bootloader [HFD]" to put the keyboard into bootloader mode thr
 Once Device and Offset are set correctly and keyboard is in bootloader mode, select "Flash QMK.." and select the firmware file to flash.  
 
 **Note:** A Jumploader is not needed
-
+<br>
+<br>
 
 # **Manually Enter Bootloader Mode:**
 Remove the spacebar and short the BOOT pin to P7 pin  
 Note: There are 5 pins on the left of the spacebar switch, BOOT and P7 are the two rightmost pins
-
+<br>
+<br>
 
 # **Revert Back to Stock:**
 Download the correct firmware for your keyboard here:
