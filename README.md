@@ -13,7 +13,7 @@ Sonix SN32F248B
 <br>
 <br>
 
-# Pre-Compiled Firmware and Modified SignalRGB Plugin In Releases Tab  
+# [Pre-Compiled Firmware and Modified SignalRGB Plugin In Releases Tab](https://github.com/CalMemer32/keychron-k8-signalrgb/releases/tag/v1)  
 
 Original "Keychron_K8_TKL_QMK_Keyboard.js" Plugin has an Incorrect Layout, Modified Version Fixes This for ANSI  
 
