@@ -38,41 +38,17 @@ Save & Exit
 
 Firmware will be found at SonixQMK Root
 
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Revert Back to Stock:**
+# **Revert Back to Stock:**
 Download the correct firmware for your keyboard here:
 https://www.keychron.com/pages/firmware-for-keychron-k8
 
 For Example, i have "Gateron Hot-swappable K8 RGB Backlight Version (v1.0.7).exe"
 Put the keyboard into bootloader mode and run the installer, your keyboard will quickly be reverted back to stock
+
+<br>
+<br>
 
 ## Key Matrix & MCU
 ![Keyboard-layout](./img/k8-layout.png)
