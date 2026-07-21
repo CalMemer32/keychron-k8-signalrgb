@@ -20,6 +20,7 @@ Gateron Hot-swappable
 RGB Backlight  
 No Knob  
 Sonix SN32F248B
+Likely from around 2023
 <br>
 <br>
 
