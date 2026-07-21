@@ -4,26 +4,21 @@ Download the latest version of QMK MSYS from here
 https://msys.qmk.fm/
 
 
-Once opened, run these commands in order:
+**Once opened, run these commands in order:**
 
-git clone --branch sn32_develop --single-branch https://github.com/SRGBmods/SonixQMK.git
+1. git clone --branch sn32_develop --single-branch https://github.com/SRGBmods/SonixQMK.git
 
-cd into /SonixQMK
+2. cd /c/Users/YOUR_USER/SonixQMK
 
-Verify you're on the correct branch with "git branch"
-It should show:
- * sn32_develop
+3. git submodule add https://github.com/SonixQMK/ChibiOS-Contrib.git
 
-git submodule add https://github.com/SonixQMK/ChibiOS-Contrib.git
+4. make git-submodule
 
-make git-submodule
-
-git submodule update --init --recursive
+5. git submodule update --init --recursive
  
-At:
+6. At:
 keyboards/keychron/k8/rgb/ansi/
 Create a file called "rules.mk" with these inside:
-
 
 USE_PROCESS_STACKSIZE = 0x500
 USE_EXCEPTIONS_STACKSIZE = 0x200
@@ -32,13 +27,12 @@ LTO_ENABLE = yes
 RGB_MATRIX_ENABLE = yes
 SIGNALRGB_SUPPORT_ENABLE = yes
 
-
 Save & Exit
 
 
-util/qmk_install.sh
+7. util/qmk_install.sh
 
-qmk compile -kb keychron/k8/rgb/ansi -km default
+8. qmk compile -kb keychron/k8/rgb/ansi -km default
 
 Firmware will be found at SonixQMK Root
 
