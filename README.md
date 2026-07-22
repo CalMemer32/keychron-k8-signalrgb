@@ -1,6 +1,7 @@
 # Pre-Built SignalRGB Compatible Firmware for Keychron K8 (K8J3)
 
 **Why did i do this?**  
+
 I followed the official SignalRGB guide but all the pre-compiled firmware files for the K8 did not work properly with my exact model.  
 The keymaps were all wrong and the RGB was completely off too.  
 To anyone with a very similar keyboard to mine, i hope this will help you if you are also experiencing troubles getting SignalRGB support on this keyboard like i was.
@@ -10,7 +11,7 @@ To anyone with a very similar keyboard to mine, i hope this will help you if you
 
 **Notes:**   
 - This guide worked for my exact keyboard spec below and might work on yours too if its similar.
-- The keyboard will only work wired, bluetooth is not supported while using this firmware.
+- The keyboard will only work wired, Bluetooth is not supported while using this firmware.
     
 **BRICKING RISK IS LOW BUT NEVER ZERO! PROCEED AT YOUR OWN RISK**
 <br>
@@ -28,7 +29,7 @@ Likely from around 2023
 
 # [Pre-Compiled Firmware and Modified SignalRGB Plugin In Releases Tab](https://github.com/CalMemer32/keychron-k8-signalrgb/releases/tag/v1)  
 
-Original "Keychron_K8_TKL_QMK_Keyboard.js" Plugin has an Incorrect Layout, Modified Version Fixes This for ANSI  
+The original "Keychron_K8_TKL_QMK_Keyboard.js" plugin had an incorrect layout, I modified this version to adjust it.  
 
 **Source:**  
 https://gitlab.com/signalrgb/signal-plugins/-/blob/master/Plugins/QMK/Keychron/Keychron_K8_TKL_QMK_Keyboard.js
@@ -99,7 +100,7 @@ Match my exact device and offset settings in the image above.
 
 Select "Reboot to Bootloader [HFD]" to put the keyboard into bootloader mode through software **(optional hardware method below)**
 
-Once Device and Offset are set correctly and keyboard is in bootloader mode, select "Flash QMK.." and select the firmware file to flash.  
+**Once Device and Offset are set correctly and keyboard is in bootloader mode**, select "Flash QMK.." and select the firmware file to flash.  
 
 **Note:** A Jumploader is not needed
 <br>
@@ -109,12 +110,14 @@ Once Device and Offset are set correctly and keyboard is in bootloader mode, sel
 1. Unplug keyboard  
 2. Remove the spacebar and short the BOOT pin to P7 pin  
 Note: There are 5 pins on the left of the spacebar switch, BOOT and P7 are the two rightmost pins  
-4. Plug keyboard back in while pins are shorted (i used a small dupont wire)  
+4. Plug the keyboard back in while shorting the pins (i used a small dupont wire)
+<img width="1610" height="906" alt="image" src="https://github.com/user-attachments/assets/2a1f7c76-5b5e-40b7-8cf0-94ae45e8ad80" />
+ 
 <br>
 <br>
 
 # **Revert Back to Stock:**
-Download the correct firmware for your keyboard here:
+Download the correct firmware for your keyboard here:  
 https://www.keychron.com/pages/firmware-for-keychron-k8
 
 [Manually put the keyboard into bootloader mode](https://github.com/CalMemer32/keychron-k8-signal#manually-enter-bootloader-mode) and run the installer, your keyboard will quickly be reverted back to stock
