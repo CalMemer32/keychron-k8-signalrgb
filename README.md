@@ -110,7 +110,8 @@ Select "Reboot to Bootloader [HFD]" to put the keyboard into bootloader mode thr
 1. Unplug keyboard  
 2. Remove the spacebar and short the BOOT pin to P7 pin  
 Note: There are 5 pins on the left of the spacebar switch, BOOT and P7 are the two rightmost pins  
-4. Plug the keyboard back in while shorting the pins (i used a small dupont wire)
+3. Plug the keyboard back in while shorting the pins (i used a small dupont wire)
+4. Remove the short, SONiX Flasher should detect the MCU once refreshed.
 <img width="1610" height="906" alt="image" src="https://github.com/user-attachments/assets/2a1f7c76-5b5e-40b7-8cf0-94ae45e8ad80" />
  
 <br>
