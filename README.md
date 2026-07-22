@@ -38,7 +38,7 @@ https://gitlab.com/signalrgb/signal-plugins/-/blob/master/Plugins/QMK/Keychron/K
 <br>
 
 
-**-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-**
+**-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-**
 # **Build on Windows:**
 
 **Disclaimer:**  
