@@ -27,11 +27,11 @@ Likely from around 2023
 <br>
 <br>
 
-# [Download Pre-Compiled Firmware and Modified SignalRGB Plugin](https://github.com/CalMemer32/keychron-k8-signalrgb/releases/tag/v1)  
+# [Download the Pre-Compiled Firmware & Modified SignalRGB Plugin Here](https://github.com/CalMemer32/keychron-k8-signalrgb/releases/tag/v1)  
 
 The original "Keychron_K8_TKL_QMK_Keyboard.js" plugin had an incorrect layout, I modified this version to adjust it.  
 
-**Source:**  
+**Original Source:**  
 https://gitlab.com/signalrgb/signal-plugins/-/blob/master/Plugins/QMK/Keychron/Keychron_K8_TKL_QMK_Keyboard.js
 
 <br>
